@@ -157,7 +157,7 @@ function spawnEnemies() {
     //push enemy into the array
     enemies.push(new Enemy(
             x, y, radius, color, velocity))
-     },3000)
+     },1200)
 }
 
 // create animate id
