@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    
+    <link 
+        href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+        rel = "stylesheet"
+    />
+
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(144, 221, 221);
+        }
+
+        canvas{
+            box-shadow: 10px 10px 50px rgb(0, 0, 0);
+        }
+    </style>
+
+</head>
+<body>
+    <div id="Game">
+        <canvas id="game" width="700px" height="700px"></canvas>
+
+        <!-- <ul id="tools" >
+            <li>
+                BGM
+                <br>
+                <audio controls loop>
+                    <source src="../soundMaterial/mapleStory_1.mp3" type="audio/ogg">
+                </audio>
+            </li>
+        </ul>
+    </div> -->
+    
+    <script src="./snake.js"></script>
+
+    
+</body>
+</html>
